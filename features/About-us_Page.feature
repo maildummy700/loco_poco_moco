@@ -40,7 +40,7 @@ Feature: Automation for PAbout Us Page to reduce manual effort of manual testing
     Then I follow "About" in the "secondary_orange_menu_bar" region
     Then print current URL
 
-    And I should see CSS "#block-mainpagecontent" in the "page_class" region
+    ###nd I should see CSS "#block-mainpagecontent" in the "page_class" region
     Then I should see the text "About Us" in the "about_us_page_About_Us_block" region
 
     Then I should see CSS ".node__content>div>div>div:nth-child(1)" in the "about_us_page_About_Us_block" region
